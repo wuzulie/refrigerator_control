@@ -1,0 +1,84 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.29.0.0
+Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: wu zulie, 高巨创新科技开发有限公司, LIC=IC9PC-78ZYZ-WIN5K-Z0I4P-5DIAH-LIK8E
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.29.0.0
+Toolchain Path:  d:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.29.0.0
+Dialog DLL:      DARMSTM.DLL V1.68.0.0
+Target DLL:      Segger\JL2CM3.dll V2.99.23.0
+Dialog DLL:      TARMSTM.DLL V1.66.0.0
+ 
+<h2>Project:</h2>
+C:\Users\Administrator\Desktop\refrigerator_control\USER\NTC.uvprojx
+Project File Date:  05/14/2020
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'd:\Keil_v5\ARM\ARMCC\Bin'
+*** Note: Rebuilding project, since 'Options->Output->Create Batch File' is selected.
+Rebuild target 'RefrigeratorControl'
+assembling startup_stm32f10x_md.s...
+compiling main.c...
+main.c(104): warning:  #177-D: variable "Uk"  was declared but never referenced
+        double ek,Uk;
+main.c: 1 warning, 0 errors
+compiling stm32f10x_it.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_rcc.c...
+..\FWlib\src\stm32f10x_rcc.c(120): warning:  #47-D: incompatible redefinition of macro "HSI_Value"  (declared at line 529 of "..\CMSIS\stm32f10x.h")
+  #define HSI_Value                 ((uint32_t)8000000)
+..\FWlib\src\stm32f10x_rcc.c: 1 warning, 0 errors
+compiling stm32f10x_usart.c...
+compiling stm32f10x_adc.c...
+compiling stm32f10x_tim.c...
+compiling stm32f10x_exti.c...
+compiling misc.c...
+compiling stm32f10x_fsmc.c...
+compiling stm32f10x_dma.c...
+compiling core_cm3.c...
+compiling system_stm32f10x.c...
+compiling usart1.c...
+compiling adc.c...
+compiling sys.c...
+compiling timer.c...
+linking...
+Program Size: Code=9084 RO-data=4268 RW-data=56 ZI-data=512  
+FromELF: creating hex file...
+"..\Output\NTC.axf" - 0 Error(s), 2 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.6.0.pack
+                ARM.CMSIS.5.6.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.3.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.1.0.5.pack
+                Keil.STM32F1xx_DFP.1.0.5
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_RefrigeratorControl
+  d:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include
+  d:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.3.0
+Build Time Elapsed:  00:00:08
+</pre>
+</body>
+</html>

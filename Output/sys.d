@@ -1,0 +1,14 @@
+..\output\sys.o: ..\sys\sys.c
+..\output\sys.o: ..\sys\sys.h
+..\output\sys.o: ..\CMSIS\stm32f10x.h
+..\output\sys.o: ..\CMSIS\core_cm3.h
+..\output\sys.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\output\sys.o: ..\CMSIS\system_stm32f10x.h
+..\output\sys.o: ..\USER\stm32f10x_conf.h
+..\output\sys.o: ..\FWlib\inc\stm32f10x_adc.h
+..\output\sys.o: ..\CMSIS\stm32f10x.h
+..\output\sys.o: ..\FWlib\inc\stm32f10x_dma.h
+..\output\sys.o: ..\FWlib\inc\stm32f10x_flash.h
+..\output\sys.o: ..\FWlib\inc\stm32f10x_gpio.h
+..\output\sys.o: ..\FWlib\inc\stm32f10x_rcc.h
+..\output\sys.o: ..\FWlib\inc\stm32f10x_usart.h
